@@ -1,0 +1,14 @@
+const BaseCommand = require('../../utils/structures/BaseCommand');
+const StateManager = require('../../utils/StateManager')
+const { MessageEmbed } = require('discord.js')
+
+module.exports = class ----Command extends BaseCommand {
+    constructor () {
+        super('----', '----', [])
+        this.connection = StateManager.connection;
+    }
+
+    async run (client, message, args) {
+        
+    }
+}
